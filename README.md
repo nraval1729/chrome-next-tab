@@ -1,6 +1,9 @@
 # chrome-next-tab
 
-chrome-next-tab is a Chrome extension that lets you open new Chrome tabs *next* to the currently open tab. (Assuming Chrome is your default browser)
+How often have you opened a new tab in Chrome to look something up quickly, and cursed when Chrome opens it at the end of all open tabs? Happens to
+ the best of us.
+ 
+chrome-next-tab is a Chrome extension that lets you open new Chrome tabs *next* to the currently open tab.
 
 # Get started
 - `git clone https://github.com/nraval1729/chrome-next-tab.git`
