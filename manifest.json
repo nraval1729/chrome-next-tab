@@ -1,0 +1,35 @@
+{
+  "name": "chrome-next-tab",
+  "version": "1.0",
+  "description": "Create new chrome tab next to the current tab.",
+  "browser_action": {
+    "default_popup": "nextTab.html",
+    "default_icon": "nextTab.png"
+  },
+  "background": {
+    "scripts": [
+      "nextTab.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+T",
+        "mac": "MacCtrl+T"
+      },
+      "description": "Opens nextTab.html"
+    },
+  "create-next-tab": {
+    "suggested_key": {
+      "default": "Ctrl+T",
+      "mac": "MacCtrl +T"
+    },
+    "description": "Create new chrome tab next to the current tab."
+  }
+},
+"manifest_version": 2
+}
